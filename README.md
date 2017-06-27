@@ -18,4 +18,8 @@ There are two datasets employed to train the networks.
 1. Retouch fluid retinal OCT dataset. The `.raw` files can be download from [ReTouch](). The `.png` files that can be directly used for training can be downloaded from [here](). This dataset is used to fine-tune the ResNet to segment medical content.
 
 ## Prerequisite
-1. you should have Tensorflow installed in your PC and make. Take a look of its version and make sure the `DrSleep/tensorflow-deeplab-resnet` supports your version. You can check the latest version it supports from [`Update` section of tensorflow-deeplab-resnet/README.md](https://github.com/DrSleep/tensorflow-deeplab-resnet/blob/master/README.md#updates).
+1. you should have Tensorflow installed in your PC. Take a look of its version and make sure the `DrSleep/tensorflow-deeplab-resnet` supports your version. You can check the latest version it supports from [Updates section of tensorflow-deeplab-resnet/README.md](https://github.com/DrSleep/tensorflow-deeplab-resnet/blob/master/README.md#updates).
+2. you shold clone the repo to your PC. You don't need to follow its instructoin at this point.
+
+## Train
+
