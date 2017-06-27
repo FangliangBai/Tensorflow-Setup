@@ -19,7 +19,7 @@ There are two datasets employed to train the networks.
 
 ## Prerequisite
 1. you should have Tensorflow installed in your PC. Take a look of its version and make sure the `DrSleep/tensorflow-deeplab-resnet` supports your version. You can check the latest version it supports from [Updates section of tensorflow-deeplab-resnet/README.md](https://github.com/DrSleep/tensorflow-deeplab-resnet/blob/master/README.md#updates).
-2. you shold clone the repo to your PC. You don't need to follow its instructoin at this point.
+2. you shold clone the repo to your PC. You don't need to complete its instructoin at this point.
 
 ## Train
 
