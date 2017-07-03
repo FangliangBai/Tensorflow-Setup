@@ -4,9 +4,10 @@
 1. Introduction
 2. Dataset
 3. Prerequisite
-4. Train
-5. Evaluate
-6. Test
+4. Tensorboard
+5. Train
+6. Evaluate
+7. Test
 
 ## Introduction
 This implement folows the guide by [DrSleep/tensorflow-deeplab-resnet](https://github.com/DrSleep/tensorflow-deeplab-resnet) and use transfer learning for a custome medical dataset. You can download the repo from [here](https://github.com/DrSleep/tensorflow-deeplab-resnet.git). All the files and settings are the same as above work other than specified in this document.
@@ -21,5 +22,14 @@ There are two datasets employed to train the networks.
 1. you should have Tensorflow installed in your PC. Take a look of its version and make sure the `DrSleep/tensorflow-deeplab-resnet` supports your version. You can check the latest version it supports from [Updates section of tensorflow-deeplab-resnet/README.md](https://github.com/DrSleep/tensorflow-deeplab-resnet/blob/master/README.md#updates).
 2. you shold clone the repo to your PC. You don't need to complete its instructoin at this point.
 
+## Tensorboard
+To visualize training progress, model graphs, and internal state histograms: fire up Tensorboard and point it at your log_dir. E.g.:
+```
+$ tensorboard --logdir=./logs/
+```
+Then open a browser to http://localhost:6006 or the correct IP/Port specified.
+
 ## Train
+
+...under developing...
 
